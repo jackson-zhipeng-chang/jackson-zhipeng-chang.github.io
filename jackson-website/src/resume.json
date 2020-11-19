@@ -29,6 +29,12 @@
         "username": "Zhipeng-Chang",
         "url": "mailto:zchang0302@gmail.com",
         "x_icon": "fas fa-2x fa-envelope"
+      },
+      {
+        "network": "Resume",
+        "username": "Zhipeng-Chang",
+        "url": "https://drive.google.com/file/d/16rXYs1RGkRUFrY6SGjyewjc4QX53Qgos/view",
+        "x_icon": "far fa-2x fa-file"
       }
     ]
   },
@@ -78,10 +84,6 @@
       "startDate": "2015-10-01",
       "endDate": "2020-01-01",
       "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
       ]
     }
   ],
@@ -174,6 +176,5 @@
     }
   ],
   "projects": [
-    
   ]
 }
