@@ -1,10 +1,10 @@
-name: MasterDeployCI
+name: Deployment
 on:
   push:
     branches:
       - master
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -16,12 +16,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install Packages
-      working-directory: ./jackson-website
       run: npm install
-    - name: Deploy to GH Pages
+    - name: Build page
       working-directory: ./jackson-website
-      run: |
-        git config --global user.email "zchang0302@gmail.com>"
-        git config --global user.name "Zhipeng-Chang>"
-        git remote set-url origin https://4dcd3ce5cb71a54ad9ac5d4dfe7ca3fbcd4171cd>@github.com/Zhipeng-Chang/Jackson-website>.git
-        npm run deploy
+      run: npm run build
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: 4dcd3ce5cb71a54ad9ac5d4dfe7ca3fbcd4171cd
+        publish_dir: ./build
