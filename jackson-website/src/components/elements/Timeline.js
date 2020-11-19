@@ -3,6 +3,9 @@ import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
 
 function Timeline() {
+
+  let showedYears = []
+
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
@@ -20,30 +23,38 @@ function Timeline() {
         })
         .map((year, i) => {
           let content = [];
-          content.push(
-            <header key={i} className="timeline-header">
-              <span className="tag is-success">{year}</span>
-            </header>
-          );
-          content.push(
-            Resume.work
-              .filter(work => new Date(work.startDate).getFullYear() === year)
-              .map((item, j) => {
-                return (
-                  <TimelineItem
-                    key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
-                      month: "long",
-                      year: "numeric"
-                    })}
-                    company={item.company}
-                    summary={item.summary}
-                  />
-                );
-              })
-          );
-          return content;
-        })}
+          if (!showedYears.includes(year)){
+            showedYears.push(year)
+            content.push(
+              <header key={i} className="timeline-header">
+                <span className="tag is-success">{year}</span>
+              </header>
+            );
+            content.push(
+              Resume.work
+                .filter(work => new Date(work.startDate).getFullYear() === year)
+                .map((item, j) => {
+                  return (
+                    <TimelineItem
+                      key={j}
+                      startDate={new Date(item.startDate).toLocaleString("en-CA", {
+                        month: "long",
+                        year: "numeric"
+                      })}
+                      endDate={new Date(item.endDate).toLocaleString("en-CA", {
+                        month: "long",
+                        year: "numeric"
+                      })}
+                      company={item.company}
+                      summary={item.summary}
+                      highlights={item.highlights}
+                    />
+                  );
+                })
+            );
+        } 
+        return content;
+      })}
     </div>
   );
 }

@@ -14,6 +14,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 .bulma-image {
     width: 200px;
@@ -29,4 +30,7 @@ html {
 }
 .skill-percentage {
 	float: right;
+}
+.education-information {
+	float: center;
 }

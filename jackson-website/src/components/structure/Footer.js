@@ -7,7 +7,7 @@ function Footer() {
         <p>
           Built by{" "}
           <a href="https://github.com/Zhipeng-Chang" className="has-text-white">
-            <strong>Zhipeng Chang</strong>
+            <strong>Jackson Zhipeng Chang</strong>
           </a>
         </p>
       </div>

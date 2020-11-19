@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Article from "../elements/Article";
+import Project from "../elements/Project";
 
-class Articles extends Component {
+class Projects extends Component {
   constructor(props) {
     super();
     this.state = { articles: [] };
@@ -31,7 +31,7 @@ class Articles extends Component {
 
   render() {
     return (
-      <section className="section" id="articles">
+      <section className="section" id="projects">
         <div className="container">
           <h1 className="title">Projects</h1>
           <div className="columns">{this.state.articles}</div>
@@ -41,4 +41,4 @@ class Articles extends Component {
   }
 }
 
-export default Articles;
+export default Projects;

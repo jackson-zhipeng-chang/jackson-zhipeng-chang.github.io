@@ -1,6 +1,6 @@
 import React from "react";
 
-function Article(props) {
+function Project(props) {
   return (
     <div className="card">
       <div className="card-header">
@@ -36,4 +36,4 @@ function Article(props) {
   );
 }
 
-export default Article;
+export default Project;

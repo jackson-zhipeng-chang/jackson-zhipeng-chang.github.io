@@ -4,8 +4,8 @@
     "label": "Software Engineer",
     "picture": "images/jchang.jpeg",
     "x_pictureFallback": "images/jchang.jpeg",
-    "x_title": "Hello! World!",
-    "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "x_title": "Hello, world!",
+    "summary": "A full-stack software developer with a demonstrated history of 2+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
       "country": "Canada",
       "countryCode": "CA",
@@ -23,63 +23,60 @@
         "username": "Zhipeng-Chang",
         "url": "https://github.com/Zhipeng-Chang",
         "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "Email",
+        "username": "Zhipeng-Chang",
+        "url": "mailto:zchang0302@gmail.com",
+        "x_icon": "fas fa-2x fa-envelope"
       }
     ]
   },
   "work": [
     {
-      "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
-      "website": "https://www.bosch.hu",
-      "startDate": "2019-10-15",
+      "company": "Alberta Motor Association",
+      "position": "Software Engineer",
+      "website": "https://www.ama.ab.ca",
+      "startDate": "2020-04-01",
       "endDate": "",
-      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
-      "highlights": []
+      "summary": "Building web apps using React.js and AWS.",
+      "highlights": ["React.js, AWS"]
     },
     {
-      "company": "Asseco PST",
-      "position": "DevOps Engineer",
-      "website": "https://www.pst.asseco.com",
+      "company": "City of Edmonton",
+      "position": "Junior Software Developer Summer Student",
+      "website": "https://www.edmonton.ca",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-31",
+      "summary": "Rehired by my previous team, worked on .NET/C#, React.js, GCP development",
+      "highlights": [".NET/C#, React.js, GCP"]
+    },
+    {
+      "company": "City of Edmonton",
+      "position": "Junior Software Developer Co-op Student",
+      "website": "https://www.edmonton.ca",
+      "startDate": "2018-06-01",
+      "endDate": "2018-12-31",
+      "summary": "My first internship, developed several web apps in .NET/C#, React.js, and GCP development.",
+      "highlights": [".NET/C#, React.js, GCP"]
+    },
+    {
+      "company": "University of Alberta",
+      "position": "Software Developer",
+      "website": "https://www.ualberta.ca",
       "startDate": "2018-04-01",
-      "endDate": "2019-08-30",
-      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
-      "highlights": []
-    },
-    {
-      "company": "Asseco PST",
-      "position": "Backend Developer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2017-08-16",
-      "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
-      "highlights": []
-    },
-    {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
-      "startDate": "2016-05-01",
-      "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
-      "highlights": []
-    },
-    {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
-      "website": "https://www.eem.pt",
-      "startDate": "2015-03-01",
-      "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
-      "highlights": []
+      "endDate": "2018-09-01",
+      "summary": "Mobile App Backend developer. Develop a “geo-app” that will collect data from pedestrians regarding their location, routes, speed, stopping periods at intersections and their perception of the built space they’re walking through for a research group.",
+      "highlights": ["Android Studio, Google API, ArcGIS"]
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
-      "area": "Computer Engineering",
+      "institution": "University of Alberta",
+      "area": "BSc Honors in Computing Science with Science Internship Program",
       "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "startDate": "2015-10-01",
+      "endDate": "2020-01-01",
       "courses": [
         "Object Oriented Programming",
         "Database Management Systems",
@@ -95,68 +92,68 @@
       "keywords": ["Languages"]
     },
     {
-      "name": "Continuous Integration",
+      "name": "Python",
       "level": "Advanced",
       "keywords": ["Languages"]
     },
     {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": ["Languages"]
-    },
-    {
-      "name": "Containers",
-      "level": "Intermediate",
-      "keywords": ["Languages"]
-    },
-    {
-      "name": "Cloud",
+      "name": "C",
       "level": "Basic",
       "keywords": ["Languages"]
     },
     {
-      "name": "Troubleshooting",
-      "level": "Advanced",
+      "name": "Java",
+      "level": "Intermediate",
       "keywords": ["Languages"]
     },
     {
-      "name": "Infrastructure as Code",
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "HTML5",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "CSS3",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "React.js",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Django",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": ".NET",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Spring Boot",
       "level": "Basic",
-      "keywords": ["Languages"]
-    },
-    {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "Design Patterns",
+      "name": "AWS Cloud Computing",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Unit Testing",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Intermediate",
+      "name": "Docker/Kubernetes",
+      "level": "Basic",
       "keywords": ["Software Developer"]
     }
   ],
@@ -166,26 +163,14 @@
       "fluency": "Fluent speaker"
     },
     {
-      "language": "Portuguese",
+      "language": "Mandarin",
       "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
-      "name": "Travel bug",
-      "x_icon": "fa-globe-africa"
-    },
-    {
       "name": "Dog lover",
       "x_icon": "fa-dog"
-    },
-    {
-      "name": "Foodie",
-      "x_icon": "fa-utensils"
-    },
-    {
-      "name": "Live in the now",
-      "x_icon": "fa-brain"
     }
   ]
 }
