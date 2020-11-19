@@ -12,7 +12,7 @@
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://zhipeng-chang.github.io/Jackson-website/",
+  "homepage": "https://www.zchang.tech/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
