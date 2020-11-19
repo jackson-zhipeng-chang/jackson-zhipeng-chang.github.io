@@ -12,8 +12,8 @@ html {
 .has-bg-image {
     background-image: url('../images/cover10.jpeg'), url('../images/cover10.jpeg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-position: center center; 
     
 }
 .bulma-image {
@@ -38,4 +38,5 @@ html {
     background-image: url('../images/footer.jpeg'), url('../images/footer.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center; 
 }
