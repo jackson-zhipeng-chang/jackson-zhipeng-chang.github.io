@@ -34,3 +34,8 @@ html {
 .education-information {
 	float: center;
 }
+#footer {
+    background-image: url('../images/footer.jpeg'), url('../images/footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

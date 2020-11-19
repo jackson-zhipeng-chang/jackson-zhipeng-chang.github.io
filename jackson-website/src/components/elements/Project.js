@@ -1,39 +1,31 @@
 import React from "react";
+import ProjectItem from "./ProjectItem"
+import Resume from "../../resume.json";
 
-function Project(props) {
-  return (
-    <div className="card">
-      <div className="card-header">
-        <a href={props.url} target="blank">
-          <p className="card-header-title">{props.title}</p>
-        </a>
-        <a
-          href={props.url}
-          target="blank"
-          className="card-header-icon"
-          aria-label="Dev Community"
-        >
-          <span className="icon">
-            <i className="fab fa-2x fa-dev"></i>
-          </span>
-        </a>
-      </div>
-      <div className="card-image">
-        <figure className="image">
-          <img width="1000" height="420" src={props.image} alt="" />
-        </figure>
-      </div>
-      <div className="card-content">
-        <h1 className="heading">DEV.TO</h1>
-        <div className="content">
-          <p>{props.extract}</p>
+function Project() {
+
+  let content = []
+
+    Resume.projects.forEach((element, index) => {
+      content.push(
+        <div className="column" key={index}>
+          <ProjectItem
+            key={index}
+            title={element.title}
+            url={element.url}
+            image={element.cover_image}
+            extract={element.description}
+          />
         </div>
-        <a href={props.url} target="blank">
-          Read the full article
-        </a>
-      </div>
-    </div>
-  );
+      );
+    });
+
+    var offset = 4 - Resume.projects.length;
+    for (var i = 0; i < offset; i++) {
+      content.push(<div className="column"></div>);
+    }
+
+  return content;
 }
 
 export default Project;

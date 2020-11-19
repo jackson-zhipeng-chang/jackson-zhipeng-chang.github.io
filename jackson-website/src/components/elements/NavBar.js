@@ -42,7 +42,7 @@ class NavBar extends React.Component {
               <MenuItem text="Education" href="#education" />
               <MenuItem text="Experience" href="#experience" />
               <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Projects" href="#projects" />
+              {Resume.projects.length !== 0 && <MenuItem text="Projects" href="#projects" />}
             </div>
           </div>
         </div>

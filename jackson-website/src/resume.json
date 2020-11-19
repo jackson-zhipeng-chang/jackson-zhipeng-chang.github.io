@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "picture": "images/jchang.jpeg",
     "x_pictureFallback": "images/jchang.jpeg",
-    "x_title": "Hello, world!",
+    "x_title": "Hello, World!",
     "summary": "A full-stack software developer with a demonstrated history of 2+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
       "country": "Canada",
@@ -40,12 +40,12 @@
       "startDate": "2020-04-01",
       "endDate": "",
       "summary": "Building web apps using React.js and AWS.",
-      "highlights": ["React.js, AWS"]
+      "highlights": ["React.js, Jest, enzyme, AWS"]
     },
     {
       "company": "City of Edmonton",
       "position": "Junior Software Developer Summer Student",
-      "website": "https://www.edmonton.ca",
+      "website": "https://www.edmonton.ca/city_government/city_organization/open-city-technology.aspx",
       "startDate": "2019-06-01",
       "endDate": "2019-08-31",
       "summary": "Rehired by my previous team, worked on .NET/C#, React.js, GCP development",
@@ -54,7 +54,7 @@
     {
       "company": "City of Edmonton",
       "position": "Junior Software Developer Co-op Student",
-      "website": "https://www.edmonton.ca",
+      "website": "https://www.edmonton.ca/city_government/city_organization/open-city-technology.aspx",
       "startDate": "2018-06-01",
       "endDate": "2018-12-31",
       "summary": "My first internship, developed several web apps in .NET/C#, React.js, and GCP development.",
@@ -172,5 +172,8 @@
       "name": "Dog lover",
       "x_icon": "fa-dog"
     }
+  ],
+  "projects": [
+    
   ]
 }

@@ -1,43 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import Project from "../elements/Project";
+import Resume from "../../resume.json";
 
-class Projects extends Component {
-  constructor(props) {
-    super();
-    this.state = { articles: [] };
-  }
-/*
-  componentDidMount() {
-    data.forEach((element, index) => {
-      articles.push(
-        <div className="column" key={index}>
-          <Article
-            key={index}
-            title={element.title}
-            url={element.url}
-            image={element.cover_image}
-            extract={element.description}
-          />
-        </div>
-      );
-    });
-    var offset = 4 - data.length;
-    for (var i = 0; i < offset; i++) {
-      articles.push(<div className="column"></div>);
-    }
-    this.setState({ articles: articles });
-  }
-  */
-
-  render() {
+function Projects() {
+  if (Resume.projects.length !== 0) {
     return (
       <section className="section" id="projects">
         <div className="container">
           <h1 className="title">Projects</h1>
-          <div className="columns">{this.state.articles}</div>
+          <Project />
         </div>
       </section>
     );
+  } else {
+    return <></>
   }
 }
 
