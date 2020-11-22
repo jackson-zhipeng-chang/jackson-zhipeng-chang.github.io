@@ -16,6 +16,19 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.4.0/js/all.js"></script>
+
+    <!-- Note: plugin scripts must be included after the tracking snippet. -->
+    <script src="https://ipmeta.io/plugin.js"></script>
+
+    <script>
+      provideGtagPlugin({
+          apiKey: 'bbbf82ae78c937383ee14979f7ee59c05cb9845ae4fbacd79a838606848e091c',
+          serviceProvider: 'dimension1',
+          networkDomain: 'dimension2',
+          networkType: 'dimension3',
+      });
+    </script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
