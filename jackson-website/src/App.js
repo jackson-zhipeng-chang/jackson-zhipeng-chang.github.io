@@ -9,7 +9,7 @@ function initializeReactGA() {
   ReactGA.initialize('UA-89926853-1');
   ReactGA.pageview('/homepage');
 }
-initializeReactGA();
+//initializeReactGA();
 
 class App extends Component {
   componentDidMount() {
