@@ -211,6 +211,12 @@
       "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API. Demo link: https://bit.ly/2XzlF41",
       "image": "/images/projects/chatbot-ets.png",
       "highlights": "Google AI & NLP | Elastic search | Google Cloud Platform"
+    },
+    {
+      "name": "React library performance improvement",
+      "description": "Rebuilt and improved AMA's internal React library. Improved one component’s loading time from 250ms to 162ms (35%), and re-rendering time from 35ms to 15ms (57%) by refactoring the code.",
+      "image": "/images/projects/react-components.png",
+      "highlights": "React.js"
     }
   ]
 }

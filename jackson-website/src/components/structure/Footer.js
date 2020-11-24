@@ -8,7 +8,7 @@ function Footer() {
           <strong className="content has-text-white">©Jackson Zhipeng Chang</strong>
         </p>
         <p>
-          Build by <strong className="content has-text-white">React.js, Github Pages</strong>
+          Built by <strong className="content has-text-white">React.js, Github Pages</strong>
         </p>
       </div>
     </footer>
