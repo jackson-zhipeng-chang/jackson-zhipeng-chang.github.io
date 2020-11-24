@@ -54,9 +54,13 @@ html {
     cursor: pointer;
 }
 .card-image {
-    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
 .card:hover .card-image {
-    display: block;
+    opacity: 1;
+    height: auto;
     cursor: pointer;
 }
