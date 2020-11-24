@@ -176,5 +176,41 @@
     }
   ],
   "projects": [
+    {
+      "name": "Open source contributor: Rasa core",
+      "description": "Contributed to rasa core platform. Rasa Core is an open source machine learning framework to automate text-and voice-based conversations. Github repo: https://github.com/RasaHQ/rasa_core",
+      "image": "/images/projects/rasa.png",
+      "highlights": "Python | Open Source"
+    },
+    {
+      "name": "Open source contributor: googlesearch",
+      "description": "Contributed to a popular python library called: googlesearch. Github repo: https://github.com/MarioVilas/googlesearch",
+      "image": "/images/projects/word-merge.png",
+      "highlights": "Python | Open Source"
+    },
+    {
+      "name": "LAGOON",
+      "description": "Led 5-person team and developed a social networking web app. The app is like Facebook and allows the importing of other sources of posts (GitHub, Twitter, etc.) as well as allowing sharing of posts and content.",
+      "image": "/images/projects/lagoon.png",
+      "highlights": "javascript/css | Django REST framework | Heroku"
+    },
+    {
+      "name": "OCTAVA",
+      "description": "Developed a web-based management portal system (OCTAVA), which is an integrated self-service portal where users can see what services are available in real-time and get automated assistance. ",
+      "image": "/images/projects/octava.png",
+      "highlights": "Vue.js | .NET Core/C# | Docker | Kubernetes"
+    },
+    {
+      "name": "City of Edmonton Google Chat chatbot",
+      "description": "Developed a Chatbot for internal users at the City of Edmonton. The Chatbot is integrated with Elastic search, Google AI & Natural language API and Google Chat app.",
+      "image": "/images/projects/chatbot-coe.png",
+      "highlights": "Google AI & NLP | Elastic search | Google Cloud Platform"
+    },
+    {
+      "name": "Edmonton Bus Finder chatbot",
+      "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API. Demo link: https://bit.ly/2XzlF41",
+      "image": "/images/projects/chatbot-ets.png",
+      "highlights": "Google AI & NLP | Elastic search | Google Cloud Platform"
+    }
   ]
 }

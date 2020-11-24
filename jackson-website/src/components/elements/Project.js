@@ -6,26 +6,23 @@ function Project() {
 
   let content = []
 
-    Resume.projects.forEach((element, index) => {
-      content.push(
-        <div className="column" key={index}>
-          <ProjectItem
-            key={index}
-            title={element.title}
-            url={element.url}
-            image={element.cover_image}
-            extract={element.description}
-          />
-        </div>
-      );
-    });
+  Resume.projects.forEach((element, index) => {
+    content.push(
+      <div className="column" key={index}>
+        <ProjectItem
+          key={index}
+          name={element.name}
+          description={element.description}
+          image={element.image}
+          highlights={element.highlights}
+        />
+      </div>
+    );
+  });
 
-    var offset = 4 - Resume.projects.length;
-    for (var i = 0; i < offset; i++) {
-      content.push(<div className="column"></div>);
-    }
-
-  return content;
+  return (
+    <div className="projects-table">{content}</div>
+  );
 }
 
 export default Project;

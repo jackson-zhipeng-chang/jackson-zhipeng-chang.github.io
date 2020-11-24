@@ -1,22 +1,11 @@
 import React from "react";
+import Badge from "./Badge.js";
 
 function ProjectItem(props) {
   return (
     <div className="card">
       <div className="card-header">
-        <a href={props.url} target="blank">
-          <p className="card-header-title">{props.title}</p>
-        </a>
-        <a
-          href={props.url}
-          target="blank"
-          className="card-header-icon"
-          aria-label="Dev Community"
-        >
-          <span className="icon">
-            <i className="fab fa-2x fa-dev"></i>
-          </span>
-        </a>
+        <p className="card-header-title">{props.name}</p>
       </div>
       <div className="card-image">
         <figure className="image">
@@ -24,13 +13,13 @@ function ProjectItem(props) {
         </figure>
       </div>
       <div className="card-content">
-        <h1 className="heading">DEV.TO</h1>
+        <h1 className="heading">Description</h1>
         <div className="content">
-          <p>{props.extract}</p>
+          <strong>{props.description}</strong>
         </div>
-        <a href={props.url} target="blank">
-          Read the full article
-        </a>
+        <div className="content">
+          <strong className="tag is-gray">{props.highlights}</strong>
+        </div>
       </div>
     </div>
   );
