@@ -45,7 +45,7 @@
       "website": "https://www.ama.ab.ca",
       "startDate": "2020-04-01",
       "endDate": "",
-      "summary": "Building web apps using React.js and AWS.",
+      "summary": "Building mobile-friendly web apps using React.js and AWS.",
       "highlights": ["React.js, Jest, enzyme, AWS"]
     },
     {
