@@ -184,7 +184,7 @@
     },
     {
       "name": "Open source contributor: googlesearch",
-      "description": "Contributed to a popular python library called: googlesearch. Github repo: https://github.com/MarioVilas/googlesearch",
+      "description": "Contributed to a popular python library: googlesearch. A python library allows developers to Google search programmatically. Github repo: https://github.com/MarioVilas/googlesearch",
       "image": "/images/projects/opensource.png",
       "highlights": "Python | Open Source"
     },
@@ -204,13 +204,13 @@
       "name": "City of Edmonton Google Chat chatbot",
       "description": "Developed a Chatbot for internal users at the City of Edmonton. The Chatbot is integrated with Elastic search, Google AI & Natural language API and Google Chat app.",
       "image": "/images/projects/chatbot-coe.png",
-      "highlights": "Google AI & NLP | Elastic search | Google Cloud Platform"
+      "highlights": "Google AI & NLP | Elastic search | GCP"
     },
     {
       "name": "Edmonton Bus Finder chatbot",
       "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API. Demo link: https://bit.ly/2XzlF41",
       "image": "/images/projects/chatbot-ets.png",
-      "highlights": "Google AI & NLP | Elastic search | Google Cloud Platform"
+      "highlights": "Google AI & NLP | Elastic search | GCP"
     },
     {
       "name": "React library performance improvement",
