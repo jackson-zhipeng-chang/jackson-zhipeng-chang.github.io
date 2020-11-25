@@ -22,7 +22,16 @@ function ProjectItem(props) {
         </div>
         }
         <div className="content">
-          <p className="tag is-gray">{props.highlights}</p>
+          <div className="field is-grouped-multiline">
+            {props.highlights.map((value, index) => {
+              return (
+                <>
+                <span className="tag is-grey">#{value}</span>
+                <span>{" "}</span>
+                </>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
