@@ -70,3 +70,10 @@ html {
     height: auto;
     cursor: pointer;
 }
+.demo-link {
+    display: none;
+}
+.card:hover .demo-link {
+    cursor: pointer;
+    display: block;
+}
