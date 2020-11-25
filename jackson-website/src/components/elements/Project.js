@@ -15,6 +15,7 @@ function Project() {
           description={element.description}
           image={element.image}
           highlights={element.highlights}
+          link={element.link}
         />
       </div>
     );

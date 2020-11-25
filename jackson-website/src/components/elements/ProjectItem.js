@@ -16,8 +16,13 @@ function ProjectItem(props) {
         <div className="content">
           <strong>{props.description}</strong>
         </div>
+        {props.link && 
+        <div className="content demo-link">
+          <a href={props.link}>Demo</a>
+        </div>
+        }
         <div className="content">
-          <strong className="tag is-gray">{props.highlights}</strong>
+          <p className="tag is-gray">{props.highlights}</p>
         </div>
       </div>
     </div>

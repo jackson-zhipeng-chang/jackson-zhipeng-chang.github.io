@@ -178,45 +178,52 @@
   "projects": [
     {
       "name": "Open source contributor: Rasa core",
-      "description": "Contributed to rasa core platform. Rasa Core is an open source machine learning framework to automate text-and voice-based conversations. Github repo: https://github.com/RasaHQ/rasa_core",
+      "description": "Contributed to rasa core platform. Rasa Core is an open source machine learning framework to automate text-and voice-based conversations.",
       "image": "/images/projects/rasa.png",
-      "highlights": "Python | Open Source"
+      "highlights": "Python | Open Source",
+      "link":"https://github.com/RasaHQ/rasa_core"
     },
     {
       "name": "Open source contributor: googlesearch",
-      "description": "Contributed to a popular python library: googlesearch. A python library allows developers to Google search programmatically. Github repo: https://github.com/MarioVilas/googlesearch",
+      "description": "Contributed to a popular python library: googlesearch. A python library allows developers to Google search programmatically.",
       "image": "/images/projects/opensource.png",
-      "highlights": "Python | Open Source"
+      "highlights": "Python | Open Source",
+      "link": "https://github.com/MarioVilas/googlesearch"
     },
     {
       "name": "LAGOON",
       "description": "Led 5-person team and developed a social networking web app. The app is like Facebook and allows the importing of other sources of posts (GitHub, Twitter, etc.) as well as allowing sharing of posts and content.",
       "image": "/images/projects/lagoon.png",
-      "highlights": "javascript/css | Django REST framework | Heroku"
+      "highlights": "javascript/css | Django REST framework | Heroku",
+      "link": "https://www.youtube.com/watch?v=EiFpLDXxi-Y"
     },
     {
       "name": "OCTAVA",
-      "description": "Developed a web-based management portal system (OCTAVA), which is an integrated self-service portal where users can see what services are available in real-time and get automated assistance. ",
+      "description": "Developed a web-based management portal system (OCTAVA), which is an integrated self-service portal where users can see what services are available in real-time and get automated assistance.",
       "image": "/images/projects/octava.png",
-      "highlights": "Vue.js | .NET Core/C# | Docker | Kubernetes"
+      "highlights": "Vue.js | .NET Core/C# | Docker | Kubernetes",
+      "link": "https://github.com/Zhipeng-Chang/oct-portal/blob/master/OCTAVA.pdf"
     },
     {
       "name": "City of Edmonton Google Chat chatbot",
-      "description": "Developed a Chatbot for internal users at the City of Edmonton. The Chatbot is integrated with Elastic search, Google AI & Natural language API and Google Chat app.",
+      "description": "Developed a Chatbot for internal users at the City of Edmonton. Reduced the query intake workload by 30%.",
       "image": "/images/projects/chatbot-coe.png",
-      "highlights": "Google AI & NLP | Elastic search | GCP"
+      "highlights": "Google AI & NLP | Elastic search | GCP",
+      "link": "https://drive.google.com/file/d/1sIhiUoUIvph-naV5g6evN6TaIxVFdk2h/view?usp=sharing"
     },
     {
       "name": "Edmonton Bus Finder chatbot",
-      "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API. Demo link: https://bit.ly/2XzlF41",
+      "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API.",
       "image": "/images/projects/chatbot-ets.png",
-      "highlights": "Google AI & NLP | Elastic search | GCP"
+      "highlights": "Google AI & NLP | Elastic search | GCP",
+      "link": "https://bit.ly/2XzlF41"
     },
     {
       "name": "React library performance improvement",
       "description": "Rebuilt and improved AMA's internal React library. Improved one component’s loading time from 250ms to 162ms (35%), and re-rendering time from 35ms to 15ms (57%) by refactoring the code.",
       "image": "/images/projects/react-components.png",
-      "highlights": "React.js"
+      "highlights": "React.js",
+      "link": ""
     }
   ]
 }
