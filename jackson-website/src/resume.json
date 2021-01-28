@@ -40,9 +40,9 @@
   },
   "work": [
     {
-      "company": "A company in Alberta",
+      "company": "Alberta _____ Association",
       "position": "Software Engineer",
-      "website": "https://www.ama.ab.ca",
+      "website": "",
       "startDate": "2020-04-01",
       "endDate": "",
       "summary": "Building mobile-friendly web apps using React.js and AWS. Achieved AWS Certified Developer certification in July 2020.",
