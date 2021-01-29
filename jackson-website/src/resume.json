@@ -40,12 +40,12 @@
   },
   "work": [
     {
-      "company": "Alberta _____ Association (Name hidden due to APEGA regulation)",
+      "company": "Alberta _____ Association",
       "position": "Software Engineer",
       "website": "",
       "startDate": "2020-04-01",
       "endDate": "",
-      "summary": "Building mobile-friendly web apps using React.js and AWS. Achieved AWS Certified Developer certification in July 2020.",
+      "summary": "(Name hidden due to APEGA regulation) Building mobile-friendly web apps using React.js and AWS. Achieved AWS Certified Developer certification in July 2020.",
       "highlights": ["React.js, Jest, enzyme, AWS"]
     },
     {
