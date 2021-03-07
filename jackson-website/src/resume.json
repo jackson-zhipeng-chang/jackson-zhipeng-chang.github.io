@@ -40,11 +40,20 @@
   },
   "work": [
     {
+      "company": "Jobber",
+      "position": "Full Stack Engineer (Fintech)",
+      "website": "https://getjobber.com/",
+      "startDate": "2021-04-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
       "company": "Alberta Motor Association",
       "position": "Software Developer",
       "website": "",
       "startDate": "2020-04-01",
-      "endDate": "",
+      "endDate": "2021-04-01",
       "summary": "Building mobile-friendly web apps using React.js and AWS. Achieved AWS Certified Developer certification in July 2020.",
       "highlights": ["React.js, Jest, enzyme, AWS"]
     },
