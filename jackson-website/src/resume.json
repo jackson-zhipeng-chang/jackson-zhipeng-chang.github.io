@@ -41,12 +41,12 @@
   "work": [
     {
       "company": "Jobber",
-      "position": "Full Stack Engineer",
+      "position": "Full Stack Engineer | Fintech",
       "website": "https://getjobber.com/",
       "startDate": "2021-04-01",
       "endDate": "",
       "summary": "Building software @Jobber!",
-      "highlights": ["React, AWS, and more!"]
+      "highlights": ["React, Ruby on Rail, TypeScript, and more!"]
     },
     {
       "company": "Alberta Motor Association",
