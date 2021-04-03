@@ -3,6 +3,7 @@ import Header from "./components/structure/Header";
 import Content from "./components/structure/Content";
 import Footer from "./components/structure/Footer";
 import Resume from "./resume.json";
+
 /*
 import ReactGA from 'react-ga';
 
@@ -19,15 +20,22 @@ class App extends Component {
       Resume.basics.label,
       [Resume.basics.location.region, Resume.basics.location.country].join(", ")
     ].join(" | ");
+
+    const queryParameters = window.location.search.trim()
+
+    if (queryParameters) {
+      window.location.replace("/")
+    }
+
   }
 
   render() {
     return (
-      <div>
+      <>
         <Header />
         <Content />
         <Footer />
-      </div>
+      </>
     );
   }
 }
