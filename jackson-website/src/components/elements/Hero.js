@@ -37,6 +37,9 @@ function Hero() {
                 </div>
               );
             }
+            else {
+              return <></>
+            }
           })}
           <div className="column"></div>
         </div>
