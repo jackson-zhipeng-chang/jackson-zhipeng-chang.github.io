@@ -1,0 +1,245 @@
+{
+  "basics": {
+    "name": "Jackson Chang",
+    "label": "Software Engineer",
+    "picture": "images/jchang.jpeg",
+    "x_pictureFallback": "images/jchang.jpeg",
+    "x_title": "Hello, World!",
+    "summary": "A full-stack software developer with a demonstrated history of 4+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
+    "location": {
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": "Toronto"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jzchang",
+        "url": "https://www.linkedin.com/in/jzchang",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "jackson-zhipeng-chang",
+        "url": "https://github.com/jackson-zhipeng-chang",
+        "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "Email",
+        "username": "Zhipeng-Chang",
+        "url": "mailto:zchang0302@gmail.com",
+        "x_icon": "fas fa-2x fa-envelope"
+      },
+      {
+        "network": "Resume",
+        "username": "Zhipeng-Chang",
+        "url": "",
+        "x_icon": "far fa-2x fa-file"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Jobber",
+      "position": "Software Engineer II || Fintech",
+      "website": "https://getjobber.com/",
+      "startDate": "2021-04-01",
+      "endDate": "",
+      "summary": "Building software @Jobber!",
+      "highlights": ["React, Ruby on Rail, TypeScript, and more!"]
+    },
+    {
+      "company": "Alberta Motor Association",
+      "position": "Software Developer I",
+      "website": "",
+      "startDate": "2020-04-01",
+      "endDate": "2021-04-01",
+      "summary": "Building mobile-friendly web apps using React.js and AWS. Achieved AWS Certified Developer certification in July 2020.",
+      "highlights": ["React.js, Jest, enzyme, AWS"]
+    },
+    {
+      "company": "City of Edmonton",
+      "position": "Junior Software Developer Summer Student",
+      "website": "https://www.edmonton.ca/city_government/city_organization/open-city-technology.aspx",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-31",
+      "summary": "Rehired by my previous team, worked on .NET Core/C#, React.js, GCP development",
+      "highlights": [".NET Core/C#, React.js, GCP"]
+    },
+    {
+      "company": "City of Edmonton",
+      "position": "Junior Software Developer Co-op Student",
+      "website": "https://www.edmonton.ca/city_government/city_organization/open-city-technology.aspx",
+      "startDate": "2018-06-01",
+      "endDate": "2018-12-31",
+      "summary": "My first internship, developed several web apps in .NET Core/C#, React.js, and GCP development.",
+      "highlights": [".NET Core/C#, React.js, GCP"]
+    },
+    {
+      "company": "University of Alberta",
+      "position": "Software Developer",
+      "website": "https://www.ualberta.ca",
+      "startDate": "2018-04-01",
+      "endDate": "2018-09-01",
+      "summary": "Mobile App Backend developer. Develop a “geo-app” that will collect data from pedestrians regarding their location, routes, speed, stopping periods at intersections and their perception of the built space they’re walking through for a research group.",
+      "highlights": ["Android Studio, Google API, ArcGIS"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Alberta",
+      "area": "BSc Honors in Computing Science with Science Internship Program",
+      "studyType": "Bachelor",
+      "startDate": "2015-9-01",
+      "endDate": "2020-01-01",
+      "courses": []
+    },
+    {
+      "institution": "University of Alberta",
+      "area": "MSc in Computing Science",
+      "studyType": "Master",
+      "startDate": "2022-09-01",
+      "endDate": "2024-01-01",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "Advanced",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "C",
+      "level": "Basic",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "HTML5",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "CSS3",
+      "level": "Intermediate",
+      "keywords": ["Languages"]
+    },
+    {
+      "name": "React.js",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Django",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": ".NET Core",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Basic",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "AWS Cloud Computing",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Docker/Kubernetes",
+      "level": "Basic",
+      "keywords": ["Software Developer"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Dog lover",
+      "x_icon": "fa-dog"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open source contributor: Rasa core",
+      "description": "Contributed to rasa core platform. Rasa Core is an open source machine learning framework to automate text-and voice-based conversations.",
+      "image": "/images/projects/rasa.png",
+      "highlights": ["Python", "Open Source"],
+      "link": "https://github.com/RasaHQ/rasa_core"
+    },
+    {
+      "name": "Open source contributor: googlesearch",
+      "description": "Contributed to a popular python library: googlesearch. A python library allows developers to Google search programmatically.",
+      "image": "/images/projects/opensource.png",
+      "highlights": ["Python", "Open Source"],
+      "link": "https://github.com/MarioVilas/googlesearch"
+    },
+    {
+      "name": "LAGOON",
+      "description": "Led 5-person team and developed a social networking web app. The app is like Facebook and allows the importing of other sources of posts (GitHub, Twitter, etc.) as well as allowing sharing of posts and content.",
+      "image": "/images/projects/lagoon.png",
+      "highlights": ["javascript/css", "Django REST framework", "Heroku"],
+      "link": "https://www.youtube.com/watch?v=EiFpLDXxi-Y"
+    },
+    {
+      "name": "OCTAVA",
+      "description": "Developed a web-based management portal system (OCTAVA), which is an integrated self-service portal where users can see what services are available in real-time and get automated assistance.",
+      "image": "/images/projects/octava.png",
+      "highlights": ["Vue.js", ".NET Core/C#", "Docker", "Kubernetes"],
+      "link": "https://github.com/Zhipeng-Chang/oct-portal/blob/master/OCTAVA.pdf"
+    },
+    {
+      "name": "City of Edmonton Google Chat chatbot",
+      "description": "Developed a Chatbot for internal users at the City of Edmonton. Reduced the query intake workload by 30%.",
+      "image": "/images/projects/chatbot-coe.png",
+      "highlights": ["Google AI & NLP", "Elastic search", "GCP"],
+      "link": "https://drive.google.com/file/d/1sIhiUoUIvph-naV5g6evN6TaIxVFdk2h/view?usp=sharing"
+    },
+    {
+      "name": "Edmonton Bus Finder chatbot",
+      "description": "Developed a Chatbot using Google Dialogflow that can find the bus schedule for you with your bus route number, bus stop number and direction, integrated with ETS API.",
+      "image": "/images/projects/chatbot-ets.png",
+      "highlights": ["Google AI & NLP", "Elastic search", "GCP"],
+      "link": "https://bit.ly/2XzlF41"
+    },
+    {
+      "name": "React library performance improvement",
+      "description": "Rebuilt and improved AMA's internal React library. Improved one component’s loading time from 250ms to 162ms (35%), and re-rendering time from 35ms to 15ms (57%) by refactoring the code.",
+      "image": "/images/projects/react-components.png",
+      "highlights": ["React.js"],
+      "link": ""
+    }
+  ]
+}
