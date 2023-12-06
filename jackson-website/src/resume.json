@@ -5,11 +5,11 @@
     "picture": "images/jchang.jpeg",
     "x_pictureFallback": "images/jchang.jpeg",
     "x_title": "Hello, World!",
-    "summary": "A full-stack software developer with a demonstrated history of 2+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
+    "summary": "A full-stack software developer with a demonstrated history of 4+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
       "country": "Canada",
       "countryCode": "CA",
-      "region": "Edmonton"
+      "region": "Toronto"
     },
     "profiles": [
       {
@@ -90,10 +90,17 @@
       "institution": "University of Alberta",
       "area": "BSc Honors in Computing Science with Science Internship Program",
       "studyType": "Bachelor",
-      "startDate": "2015-10-01",
+      "startDate": "2015-9-01",
       "endDate": "2020-01-01",
-      "courses": [
-      ]
+      "courses": []
+    },
+    {
+      "institution": "University of Alberta",
+      "area": "MSc in Computing Science",
+      "studyType": "Master",
+      "startDate": "2022-09-01",
+      "endDate": "2024-01-01",
+      "courses": []
     }
   ],
   "skills": [
@@ -190,7 +197,7 @@
       "description": "Contributed to rasa core platform. Rasa Core is an open source machine learning framework to automate text-and voice-based conversations.",
       "image": "/images/projects/rasa.png",
       "highlights": ["Python", "Open Source"],
-      "link":"https://github.com/RasaHQ/rasa_core"
+      "link": "https://github.com/RasaHQ/rasa_core"
     },
     {
       "name": "Open source contributor: googlesearch",
