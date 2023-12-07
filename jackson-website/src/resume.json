@@ -2,8 +2,8 @@
   "basics": {
     "name": "Jackson Chang",
     "label": "Software Engineer",
-    "picture": "images/jchang.jpeg",
-    "x_pictureFallback": "images/jchang.jpeg",
+    "picture": "images/jchang.JPG",
+    "x_pictureFallback": "images/jchang.JPG",
     "x_title": "Hello, World!",
     "summary": "A full-stack software developer with a demonstrated history of 4+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
@@ -105,6 +105,11 @@
   ],
   "skills": [
     {
+      "name": "Ruby",
+      "level": "Advanced",
+      "keywords": ["Languages"]
+    },
+    {
       "name": "Javascript",
       "level": "Advanced",
       "keywords": ["Languages"]
@@ -115,18 +120,13 @@
       "keywords": ["Languages"]
     },
     {
-      "name": "C",
+      "name": "Java",
       "level": "Basic",
       "keywords": ["Languages"]
     },
     {
-      "name": "Java",
-      "level": "Intermediate",
-      "keywords": ["Languages"]
-    },
-    {
       "name": "C#",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": ["Languages"]
     },
     {
@@ -140,6 +140,11 @@
       "keywords": ["Languages"]
     },
     {
+      "name": "Ruby on Rails",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
       "name": "React.js",
       "level": "Advanced",
       "keywords": ["Software Developer"]
@@ -150,8 +155,8 @@
       "keywords": ["Software Developer"]
     },
     {
-      "name": "Node.js",
-      "level": "Intermediate",
+      "name": "React Native",
+      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
@@ -162,11 +167,6 @@
     {
       "name": "Spring Boot",
       "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "AWS Cloud Computing",
-      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
