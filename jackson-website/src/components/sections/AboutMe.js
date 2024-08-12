@@ -3,6 +3,10 @@ import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
 
 function AboutMe() {
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 2020;
+  const summary = Resume.basics.summary.replace("{years}", yearsOfExperience);
+
   return (
     <section className="section" id="aboutMe">
       <div className="container has-text-centered">
@@ -13,14 +17,17 @@ function AboutMe() {
             src={Resume.basics.picture}
             alt={Resume.basics.name}
             className="is-rounded"
-            onError={(e)=>{e.target.onerror = null; e.target.src=Resume.basics.x_pictureFallback}}
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = Resume.basics.x_pictureFallback;
+            }}
           />
         </figure>
         <p className="subtitle is-4 has-text-weight-bold">
           {Resume.basics.x_title}
         </p>
         <p className="subtitle is-5 has-text-weight-bold summary-text">
-          {Resume.basics.summary}
+          {summary}
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">

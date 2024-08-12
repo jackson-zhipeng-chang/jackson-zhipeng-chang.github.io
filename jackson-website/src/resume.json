@@ -5,7 +5,7 @@
     "picture": "images/jchang.JPG",
     "x_pictureFallback": "images/jchang.JPG",
     "x_title": "Hello, World!",
-    "summary": "A full-stack software developer with a demonstrated history of 4+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
+    "summary": "A full-stack software developer with a demonstrated history of {years}+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
       "country": "Canada",
       "countryCode": "CA",
