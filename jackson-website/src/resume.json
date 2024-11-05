@@ -2,8 +2,8 @@
   "basics": {
     "name": "Jackson Chang",
     "label": "Software Engineer",
-    "picture": "images/jchang.JPG",
-    "x_pictureFallback": "images/jchang.JPG",
+    "picture": "images/jchang_new.JPG",
+    "x_pictureFallback": "images/jchang_new.JPG",
     "x_title": "Hello, World!",
     "summary": "A full-stack software developer with a demonstrated history of {years}+ years working experience with web application development. Loves coding and solving problems. Highly teachable, helpful, motivated, and detail oriented.",
     "location": {
